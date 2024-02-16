@@ -14,7 +14,8 @@ Muito simples, basta seguir o passo a passo abaixo para ativar e configurar sua 
 
 Para criar um fluxo no CRM - FlowByTags é bem simples, assim que instalado no seu router, você terá a tela abaixo:
 
-![image](https://github.com/Wilkor/doc-plugin-crm-flowbytags/assets/34819624/55fdd046-67c3-49d1-a1ec-53a5e90d783f)
+![image](https://github.com/Wilkor/doc-plugin-crm-flowbytags/assets/34819624/79391e2f-9518-4353-87c2-12d1a65dde93)
+
 
 No passo 1, você vai criar seu fluxo, por exemplo:
 
@@ -23,10 +24,9 @@ No passo 1, você vai criar seu fluxo, por exemplo:
 ![image](https://github.com/Wilkor/doc-plugin-crm-flowbytags/assets/34819624/038ac3eb-8012-4f83-8fcd-485fd5c84289)
 
 
-Depois você terá essas opções: Nome do fluxo, tag, Template, bloco de retorno e bloco de gatilho:
+Depois você terá essas opções: Nome do fluxo, tag e bloco de gatilho:
 
-![image](https://github.com/Wilkor/doc-plugin-crm-flowbytags/assets/34819624/7c0715c9-4df2-48bc-96bc-3c20aafd53c3)
-
+![image](https://github.com/Wilkor/doc-plugin-crm-flowbytags/assets/34819624/ec29d71e-737a-4abf-81c4-b8d4dd9df11e)
 
 - **Nome do fluxo:**
   
@@ -36,27 +36,20 @@ Depois você terá essas opções: Nome do fluxo, tag, Template, bloco de retorn
 
   Você deve escolhar uma tag para fazer um determindo disparo ativo;
  
-- **Template:**
-  
-  Template que será disparado quando o cliente entrar na regra criada
-  
-- **Bloco de retorno:**
-
-  Quando o clietne responder a mensagem que irá receber ele deve ser direcionando para um bloco dentro do fluxo do chatbot
-  
 - **Bloco de gatilho:**
   
-  Aqui você deve selecionar o bloco que ao chegar nele a automação irá identificar e fazer as validações e agendar o disparo com base na régua estabelecida;
+  Aqui você deve selecionar o bloco que,  ao chegar nele,  a automação irá identificar e fazer as validações e agendar o disparo com base na régua estabelecida;
 
-- **Régua de contato:**
 
-  Aqui, você deve selecionar uma das opções, por exemplo: Se selecionar 7 dias, todo cliente que for finalizado com a tag **Pesquisa NPS** receberão uma mensagem ativa depois de 7 dias.
+# Fluxo de contato
+
+  Aqui, você poderá criar um fluxo de contato, ou seja, assim que o atendimento for finalizado com a tag **Venda Realizada** duas mensagem ativas serão agendas para esse cliente, conforme tela abaixo:
   
-  ![image](https://github.com/Wilkor/doc-plugin-crm-flowbytags/assets/34819624/64c111c7-c977-4d38-b51c-dc51c40ae8da)
+  
+ ![image](https://github.com/Wilkor/doc-plugin-crm-flowbytags/assets/34819624/33fdd647-0dd2-40c1-86cd-3b0d6d5f7a33)
 
 
   Feito isso, você deve clicar no botão **Cadastrar Fluxo**
-
 
   # Consultar Fluxo existentes
 
@@ -66,7 +59,13 @@ Depois você terá essas opções: Nome do fluxo, tag, Template, bloco de retorn
 
   Ficando assim:
 
-  ![image](https://github.com/Wilkor/doc-plugin-crm-flowbytags/assets/34819624/66e15150-4124-41c6-a8be-3d1a9ef5c15c)
+![image](https://github.com/Wilkor/doc-plugin-crm-flowbytags/assets/34819624/6cfbb679-96c1-4202-8ef5-c20880e5c5fc)
+
+Ao clicar no nome do fluxo, abrirá um popup com os clientes que tiveram agendamento,  como se fosse um log.
+
+
+![image](https://github.com/Wilkor/doc-plugin-crm-flowbytags/assets/34819624/bca78e14-1913-4ae6-b60b-4c357e631040)
+
 
  Além disso, você poderá filtrar também.
 
